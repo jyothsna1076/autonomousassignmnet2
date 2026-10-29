@@ -229,7 +229,3 @@ See the full report (`autonomousassignment2report.pdf`) for per-question results
 ##  Report
 
 The full project report is in [`autonomousassignment2report.pdf`](autonomousassignment2report.pdf).
-
-##  License
-
-Add a license of your choice (e.g. MIT) before publishing. Note that the university documents in `data/docs/` may not be redistributable, so check before making them public.
