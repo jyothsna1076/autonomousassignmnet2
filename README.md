@@ -1,4 +1,4 @@
-# 🎓 Academic Helpdesk Agent
+#  Academic Helpdesk Agent
 
 A multi-agent RAG assistant for IIT Jodhpur students, built with **Google ADK**, **Ollama (Qwen3 8B / Llama 3.1 8B)**, **LiteLLM**, **nomic-embed-text** and **ChromaDB**.
 
@@ -10,7 +10,7 @@ It answers questions about academic rules, curriculum, course slots and timetabl
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Document Q&A with citations**: policy, regulations, calendar and curriculum questions answered from 21 PDFs, with file name and page number.
 - **Structured lookups**: course slots, lecture timings, course counts and instructor contacts from CSV tables.
@@ -23,7 +23,7 @@ It answers questions about academic rules, curriculum, course slots and timetabl
 
 ---
 
-## 🏗️ System design
+##  System design
 
 ### Tools
 
@@ -56,7 +56,7 @@ The single-agent version gives all six tools to one agent.
 
 ---
 
-## 📁 Repository structure
+##  Repository structure
 
 ```
 helpdesk-agent/
@@ -78,7 +78,7 @@ helpdesk-agent/
 
 ---
 
-## 🚀 Getting started (Google Colab)
+##  Getting started (Google Colab)
 
 The project is designed to run on a **Google Colab T4 GPU**.
 
@@ -133,7 +133,7 @@ print(open(sorted(glob.glob('drafts/*.txt'))[-1]).read())   # latest e-mail draf
 
 ---
 
-## 🧪 Evaluation
+##  Evaluation
 
 32 questions in `questions.csv`, each with the expected agent, expected source file and keywords the answer must contain.
 
@@ -165,7 +165,7 @@ A full run takes roughly 15–30 minutes on a T4. Results are written to `result
 
 ---
 
-## 📊 Results
+##  Results
 
 Accuracy, citation and groundedness are averaged over the 24 answerable questions (P, S, E). Each question was run 3 times.
 
@@ -205,7 +205,7 @@ See the full report (`autonomousassignment2report.pdf`) for per-question results
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Qwen3 8B sometimes refuses or answers **without searching first**, causing false refusals and occasional made-up sources.
 - Small local models give **different answers across runs**; e-mail drafts always vary in wording.
@@ -214,7 +214,7 @@ See the full report (`autonomousassignment2report.pdf`) for per-question results
 
 ---
 
-## 🛠️ Tech stack
+##  Tech stack
 
 - [Google ADK](https://google.github.io/adk-docs/) (agent framework)
 - [Ollama](https://ollama.com/) + [LiteLLM](https://github.com/BerriAI/litellm) (local LLM serving)
@@ -226,10 +226,10 @@ See the full report (`autonomousassignment2report.pdf`) for per-question results
 
 ---
 
-## 📄 Report
+##  Report
 
 The full project report is in [`autonomousassignment2report.pdf`](autonomousassignment2report.pdf).
 
-## 📜 License
+##  License
 
 Add a license of your choice (e.g. MIT) before publishing. Note that the university documents in `data/docs/` may not be redistributable, so check before making them public.
