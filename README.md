@@ -5,7 +5,7 @@ A multi-agent RAG assistant for IIT Jodhpur students, built with **Google ADK**,
 It answers questions about academic rules, curriculum, course slots and timetables, and writes (but **never sends**) e-mail drafts to course instructors. If a question is not covered by the documents, the agent says it doesn't know and logs the question for a human to answer. Every answer taken from the documents names its source (file name and page).
 
 > Course project: *Autonomous Systems – Assignment 2*
-> Authors: **[Name 1, Roll No.]**, **[Name 2, Roll No.]**, **[Name 3, Roll No.]**
+> Authors: **Jyothsna**, **Pragna**, **Sriya** , **Vamsi**
 > Indian Institute of Technology Jodhpur · 30 October 2026
 
 ---
